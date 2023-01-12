@@ -1,7 +1,7 @@
 
 # Under Construction Template
 
-This is a webpage (template) for Under Construction pages.
+This is a <b>full-fledged responsive</b> webpage (template) for Under Construction pages.
 
 ## Used Technologies
 
