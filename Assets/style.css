@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital@1&display=swap');
+
+body {
+    background-color: #66b6d2;
+    font-family: 'Sofia Sans', sans-serif;
+    cursor: default;
+}
+
+h1 {
+    font-size: 60px;
+    color: #ffe101;
+    margin: 0%;
+    text-align: center;
+}
+
+div {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+}
+
+p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    color: #df045d;
+}
+
+a {
+    font-size: 115%;
+    text-decoration: none;
+    color: #bf014d;
+}
+
+a:hover {
+    color: #000000;
+}
+
+/* Media Quaries --> */
+
+@media screen and (width<=1620px) {
+    p {
+        font-size: 90%;
+    }
+}
+
+@media screen and (width<=850px) {
+    p {
+        font-size: 80%;
+    }
+}
+
+@media screen and (width<=530px) {
+    h1 {
+        font-size: 50px;
+    }
+    
+    p {
+        font-size: 70%;
+    }
+}
+
+@media screen and (width<=410px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 60%;
+    }
+}
+
+@media screen and (width<=326px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 50%;
+    }
+}
